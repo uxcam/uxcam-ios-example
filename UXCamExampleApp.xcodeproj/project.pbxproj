@@ -52,16 +52,6 @@
 			path = UXCamExampleApp;
 			sourceTree = "<group>";
 		};
-		A4E51E872D953B490094D55B /* UXCamExampleAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = UXCamExampleAppTests;
-			sourceTree = "<group>";
-		};
-		A4E51E912D953B490094D55B /* UXCamExampleAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = UXCamExampleAppUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				A4E51E702D953B480094D55B /* UXCamExampleApp */,
-				A4E51E872D953B490094D55B /* UXCamExampleAppTests */,
-				A4E51E912D953B490094D55B /* UXCamExampleAppUITests */,
 				A4E51E6F2D953B480094D55B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -149,9 +137,6 @@
 			dependencies = (
 				A4E51E862D953B490094D55B /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				A4E51E872D953B490094D55B /* UXCamExampleAppTests */,
-			);
 			name = UXCamExampleAppTests;
 			packageProductDependencies = (
 			);
@@ -171,9 +156,6 @@
 			);
 			dependencies = (
 				A4E51E902D953B490094D55B /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				A4E51E912D953B490094D55B /* UXCamExampleAppUITests */,
 			);
 			name = UXCamExampleAppUITests;
 			packageProductDependencies = (

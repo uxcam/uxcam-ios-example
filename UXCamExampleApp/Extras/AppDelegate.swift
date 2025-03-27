@@ -8,7 +8,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     
         UXCam.optIntoSchematicRecordings()
-        let configuration = UXCamConfiguration(appKey: "et268wovwwhqy9y")
+        // TODO: Add your UXCam app key before running
+        let configuration = UXCamConfiguration(appKey: "YOUR_APP_KEY")
         UXCam.start(with: configuration)
         return true
     }
