@@ -14,7 +14,8 @@ class WelcomeViewController: UIViewController {
         DemoItem(title: "Heatmaps", icon: "flame.fill", action: #selector(showHeatmaps)),
         DemoItem(title: "User Analytics", icon: "person.2.fill", action: #selector(showUserAnalytics)),
         DemoItem(title: "Video Player", icon: "video.fill", action: #selector(showVideoPlayer)),
-        DemoItem(title: "SwiftUI Views", icon: "swift", action: #selector(showSwiftUIView))
+        DemoItem(title: "SwiftUI Views", icon: "swift", action: #selector(showSwiftUIView)),
+        DemoItem(title: "Text Input Demo", icon: "textformat", action: #selector(showTextInputDemo))
     ]
     
     private let headerStackView: UIStackView = {
@@ -123,6 +124,11 @@ class WelcomeViewController: UIViewController {
     
     @objc private func showSwiftUIView() {
         let vc = SwiftUIController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func showTextInputDemo() {
+        let vc = ContainerViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
 }
