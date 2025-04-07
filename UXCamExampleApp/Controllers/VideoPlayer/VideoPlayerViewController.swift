@@ -173,9 +173,12 @@ class VideoPlayerViewController: UIViewController {
                   let currentItem = self.player?.currentItem else { return }
             
             let currentTime = Float(CMTimeGetSeconds(time))
-            let duration = Float(CMTimeGetSeconds(currentItem.duration))
+            let duration = CMTimeGetSeconds(currentItem.duration)
             
-            self.playerControlsVC?.updateProgress(currentTime: currentTime, totalTime: duration)
+            if duration.isFinite && duration > 0 {
+                self.playerControlsVC?.updateProgress(currentTime: currentTime, totalTime: Float(duration))
+            }
+            
         }
     }
     
