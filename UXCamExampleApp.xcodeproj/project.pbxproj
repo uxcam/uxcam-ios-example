@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A40A181E2D9A6D95001E0E3E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40A181D2D9A6D95001E0E3E /* AVFoundation.framework */; };
+		A40A18202D9A6D9C001E0E3E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40A181F2D9A6D9C001E0E3E /* CoreMedia.framework */; };
+		A40A18222D9A6DA3001E0E3E /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40A18212D9A6DA3001E0E3E /* CoreServices.framework */; };
+		A40A18242D9A6DA8001E0E3E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40A18232D9A6DA8001E0E3E /* CoreTelephony.framework */; };
+		A40A18262D9A6DB0001E0E3E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40A18252D9A6DB0001E0E3E /* WebKit.framework */; };
+		A40A18282D9A6DBC001E0E3E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40A18272D9A6DBC001E0E3E /* SystemConfiguration.framework */; };
+		A40A182A2D9A6DC6001E0E3E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A40A18292D9A6DC2001E0E3E /* libz.tbd */; };
+		A40A182C2D9A6DCE001E0E3E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A40A182B2D9A6DCA001E0E3E /* libc++.tbd */; };
+		A454AD7E2DA3963900212FB7 /* UXCam in Frameworks */ = {isa = PBXBuildFile; productRef = A454AD7D2DA3963900212FB7 /* UXCam */; };
+		A454AD812DA3965900212FB7 /* UXCam in Frameworks */ = {isa = PBXBuildFile; productRef = A454AD802DA3965900212FB7 /* UXCam */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4E51E852D953B490094D55B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4E51E662D953B480094D55B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4E51E6D2D953B480094D55B;
+			remoteInfo = UXCamExampleApp;
+		};
+		A4E51E8F2D953B490094D55B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4E51E662D953B480094D55B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4E51E6D2D953B480094D55B;
+			remoteInfo = UXCamExampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A40A181B2D9A6D6E001E0E3E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A40A181D2D9A6D95001E0E3E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A40A181F2D9A6D9C001E0E3E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A40A18212D9A6DA3001E0E3E /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		A40A18232D9A6DA8001E0E3E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A40A18252D9A6DB0001E0E3E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A40A18272D9A6DBC001E0E3E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A40A18292D9A6DC2001E0E3E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A40A182B2D9A6DCA001E0E3E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A4E51E6E2D953B480094D55B /* UXCamExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UXCamExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E51E842D953B490094D55B /* UXCamExampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UXCamExampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E51E8E2D953B490094D55B /* UXCamExampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UXCamExampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A4E51E962D953B490094D55B /* Exceptions for "UXCamExampleApp" folder in "UXCamExampleApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Info.plist,
+			);
+			target = A4E51E6D2D953B480094D55B /* UXCamExampleApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A4E51E702D953B480094D55B /* UXCamExampleApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A4E51E962D953B490094D55B /* Exceptions for "UXCamExampleApp" folder in "UXCamExampleApp" target */,
+			);
+			path = UXCamExampleApp;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4E51E6B2D953B480094D55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40A18202D9A6D9C001E0E3E /* CoreMedia.framework in Frameworks */,
+				A40A182A2D9A6DC6001E0E3E /* libz.tbd in Frameworks */,
+				A40A18282D9A6DBC001E0E3E /* SystemConfiguration.framework in Frameworks */,
+				A40A181E2D9A6D95001E0E3E /* AVFoundation.framework in Frameworks */,
+				A40A18262D9A6DB0001E0E3E /* WebKit.framework in Frameworks */,
+				A454AD812DA3965900212FB7 /* UXCam in Frameworks */,
+				A40A18242D9A6DA8001E0E3E /* CoreTelephony.framework in Frameworks */,
+				A454AD7E2DA3963900212FB7 /* UXCam in Frameworks */,
+				A40A182C2D9A6DCE001E0E3E /* libc++.tbd in Frameworks */,
+				A40A18222D9A6DA3001E0E3E /* CoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E51E812D953B490094D55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E51E8B2D953B490094D55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40A18182D9A6D6E001E0E3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A40A182B2D9A6DCA001E0E3E /* libc++.tbd */,
+				A40A18292D9A6DC2001E0E3E /* libz.tbd */,
+				A40A18272D9A6DBC001E0E3E /* SystemConfiguration.framework */,
+				A40A18252D9A6DB0001E0E3E /* WebKit.framework */,
+				A40A18232D9A6DA8001E0E3E /* CoreTelephony.framework */,
+				A40A18212D9A6DA3001E0E3E /* CoreServices.framework */,
+				A40A181F2D9A6D9C001E0E3E /* CoreMedia.framework */,
+				A40A181D2D9A6D95001E0E3E /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4E51E652D953B480094D55B = {
+			isa = PBXGroup;
+			children = (
+				A4E51E702D953B480094D55B /* UXCamExampleApp */,
+				A40A18182D9A6D6E001E0E3E /* Frameworks */,
+				A4E51E6F2D953B480094D55B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4E51E6F2D953B480094D55B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4E51E6E2D953B480094D55B /* UXCamExampleApp.app */,
+				A4E51E842D953B490094D55B /* UXCamExampleAppTests.xctest */,
+				A4E51E8E2D953B490094D55B /* UXCamExampleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4E51E6D2D953B480094D55B /* UXCamExampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E51E972D953B490094D55B /* Build configuration list for PBXNativeTarget "UXCamExampleApp" */;
+			buildPhases = (
+				A4E51E6A2D953B480094D55B /* Sources */,
+				A4E51E6B2D953B480094D55B /* Frameworks */,
+				A4E51E6C2D953B480094D55B /* Resources */,
+				A40A181B2D9A6D6E001E0E3E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A4E51E702D953B480094D55B /* UXCamExampleApp */,
+			);
+			name = UXCamExampleApp;
+			packageProductDependencies = (
+				A454AD7D2DA3963900212FB7 /* UXCam */,
+				A454AD802DA3965900212FB7 /* UXCam */,
+			);
+			productName = UXCamExampleApp;
+			productReference = A4E51E6E2D953B480094D55B /* UXCamExampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4E51E832D953B490094D55B /* UXCamExampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E51E9C2D953B490094D55B /* Build configuration list for PBXNativeTarget "UXCamExampleAppTests" */;
+			buildPhases = (
+				A4E51E802D953B490094D55B /* Sources */,
+				A4E51E812D953B490094D55B /* Frameworks */,
+				A4E51E822D953B490094D55B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4E51E862D953B490094D55B /* PBXTargetDependency */,
+			);
+			name = UXCamExampleAppTests;
+			packageProductDependencies = (
+			);
+			productName = UXCamExampleAppTests;
+			productReference = A4E51E842D953B490094D55B /* UXCamExampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4E51E8D2D953B490094D55B /* UXCamExampleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E51E9F2D953B490094D55B /* Build configuration list for PBXNativeTarget "UXCamExampleAppUITests" */;
+			buildPhases = (
+				A4E51E8A2D953B490094D55B /* Sources */,
+				A4E51E8B2D953B490094D55B /* Frameworks */,
+				A4E51E8C2D953B490094D55B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4E51E902D953B490094D55B /* PBXTargetDependency */,
+			);
+			name = UXCamExampleAppUITests;
+			packageProductDependencies = (
+			);
+			productName = UXCamExampleAppUITests;
+			productReference = A4E51E8E2D953B490094D55B /* UXCamExampleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4E51E662D953B480094D55B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A4E51E6D2D953B480094D55B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A4E51E832D953B490094D55B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A4E51E6D2D953B480094D55B;
+					};
+					A4E51E8D2D953B490094D55B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A4E51E6D2D953B480094D55B;
+					};
+				};
+			};
+			buildConfigurationList = A4E51E692D953B480094D55B /* Build configuration list for PBXProject "UXCamExampleApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4E51E652D953B480094D55B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A454AD7F2DA3965900212FB7 /* XCRemoteSwiftPackageReference "uxcam-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A4E51E6F2D953B480094D55B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4E51E6D2D953B480094D55B /* UXCamExampleApp */,
+				A4E51E832D953B490094D55B /* UXCamExampleAppTests */,
+				A4E51E8D2D953B490094D55B /* UXCamExampleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4E51E6C2D953B480094D55B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E51E822D953B490094D55B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E51E8C2D953B490094D55B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4E51E6A2D953B480094D55B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E51E802D953B490094D55B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E51E8A2D953B490094D55B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4E51E862D953B490094D55B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4E51E6D2D953B480094D55B /* UXCamExampleApp */;
+			targetProxy = A4E51E852D953B490094D55B /* PBXContainerItemProxy */;
+		};
+		A4E51E902D953B490094D55B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4E51E6D2D953B480094D55B /* UXCamExampleApp */;
+			targetProxy = A4E51E8F2D953B490094D55B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4E51E982D953B490094D55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3Y5Y5X7H8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UXCamExampleApp/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uxcam.UXCamExampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4E51E992D953B490094D55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3Y5Y5X7H8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UXCamExampleApp/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uxcam.UXCamExampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4E51E9A2D953B490094D55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4E51E9B2D953B490094D55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4E51E9D2D953B490094D55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3Y5Y5X7H8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uxcam.UXCamExampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UXCamExampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UXCamExampleApp";
+			};
+			name = Debug;
+		};
+		A4E51E9E2D953B490094D55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3Y5Y5X7H8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uxcam.UXCamExampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UXCamExampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UXCamExampleApp";
+			};
+			name = Release;
+		};
+		A4E51EA02D953B490094D55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3Y5Y5X7H8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uxcam.UXCamExampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UXCamExampleApp;
+			};
+			name = Debug;
+		};
+		A4E51EA12D953B490094D55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3Y5Y5X7H8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uxcam.UXCamExampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UXCamExampleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4E51E692D953B480094D55B /* Build configuration list for PBXProject "UXCamExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E51E9A2D953B490094D55B /* Debug */,
+				A4E51E9B2D953B490094D55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E51E972D953B490094D55B /* Build configuration list for PBXNativeTarget "UXCamExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E51E982D953B490094D55B /* Debug */,
+				A4E51E992D953B490094D55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E51E9C2D953B490094D55B /* Build configuration list for PBXNativeTarget "UXCamExampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E51E9D2D953B490094D55B /* Debug */,
+				A4E51E9E2D953B490094D55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E51E9F2D953B490094D55B /* Build configuration list for PBXNativeTarget "UXCamExampleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E51EA02D953B490094D55B /* Debug */,
+				A4E51EA12D953B490094D55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A454AD7F2DA3965900212FB7 /* XCRemoteSwiftPackageReference "uxcam-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uxcam/uxcam-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.6.23;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A454AD7D2DA3963900212FB7 /* UXCam */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UXCam;
+		};
+		A454AD802DA3965900212FB7 /* UXCam */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A454AD7F2DA3965900212FB7 /* XCRemoteSwiftPackageReference "uxcam-ios-sdk" */;
+			productName = UXCam;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A4E51E662D953B480094D55B /* Project object */;
+}
